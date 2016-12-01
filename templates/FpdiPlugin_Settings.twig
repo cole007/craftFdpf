@@ -1,0 +1,22 @@
+{#
+/**
+ * FPDI plugin plugin for Craft CMS
+ *
+ * FPDI plugin Settings.twig
+ *
+ * @author    @cole007
+ * @copyright Copyright (c) 2016 @cole007
+ * @link      http://ournameismud.co.uk/
+ * @package   FpdiPlugin
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "fpdiplugin/css/FpdiPlugin_Style.css" %}
+{% includeJsResource "fpdiplugin/js/FpdiPlugin_Script.js" %}
+
+{{ forms.field({
+  label: "PDF Template"
+}, include('_includes/forms/elementSelect', pdfTemplate)) }}

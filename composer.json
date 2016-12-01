@@ -1,0 +1,16 @@
+{
+	"name": "/fpdiplugin",
+	"description": "Plugin leveraging the FPDI plugin for output as Craft templates",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "@cole007",
+			"homepage": "http://ournameismud.co.uk/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"setasign/fpdf": "1.8.1",
+		"setasign/fpdi": "1.6.1"
+	}
+}
